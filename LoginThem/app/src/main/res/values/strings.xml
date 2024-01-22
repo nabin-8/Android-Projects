@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">plantylogin</string>
+    <string name="main_name">Plantly</string>
+    <string name="title">Let’s make Android App</string>
+    <string name="title2">Can’t seem to keeep a plant alive?Let us help you change that</string>
+    <string name="login">LOGIN</string>
+    <string name="Signup">SIGNUP</string>
+</resources>

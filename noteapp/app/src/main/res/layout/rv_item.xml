@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:backgroundTint="#FF4081"
+    android:elevation="20dp"
+    app:cardCornerRadius="10dp">
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="25dp"
+
+        android:fontFamily="@font/nunito"
+
+        android:gravity="top"
+
+        android:text="UI concepts worth exsisting"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</androidx.cardview.widget.CardView>

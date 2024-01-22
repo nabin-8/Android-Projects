@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BCASyllabus" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/topbackground</item>
+
+<!--        <item name="android:windowAnimationStyle">@style/Activityanimation</item>-->
+    </style>
+
+<!--    <style name="Activityanimation" parent="@android:style/Animation.Activity">-->
+<!--        <item name="android:activityOpenExitAnimation">@anim/slide_in</item>-->
+<!--        <item name="android:activityCloseExitAnimation">@anim/slide_in</item>-->
+<!--        <item name="android:activityOpenExitAnimation">@anim/slid_out</item>-->
+<!--        <item name="android:activityCloseExitAnimation">@anim/slid_out</item>-->
+<!--    </style>-->
+</resources>

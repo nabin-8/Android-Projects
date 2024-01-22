@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btnOperator">#FFFFFFFF</color>
+    <color name="purple_200">#FF6200EE</color>
+    <color name="Purple_700">#FFBB86FC</color>
+    <color name="Linecolor">#DAD8D8</color>
+    <color name="btnBackground">#FFFFFF</color>
+    <color name="btnBackground2">#0080FE</color>
+    <color name="btnBackgroundsplash">#0080FE</color>
+    <color name="brown">#FF9800</color>
+</resources>

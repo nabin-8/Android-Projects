@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GnzCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/btnBackground2</item>
+    </style>
+
+    <style name="Theme.GnzCalculator" parent="Base.Theme.GnzCalculator" />
+    
+    <style name="btnoperator" parent="Commonbutton">
+        <item name="android:textColor">@color/btnBackground2</item>
+        <item name="backgroundTint">@color/btnOperator</item>
+    </style>
+    
+    <style name="digitbotton" parent="Commonbutton">
+
+
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Commonbutton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+
+        <item name="android:layout_width">63dp</item>
+        <item name="android:layout_height">63dp</item>
+        <item name="cornerRadius">36dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+</resources>

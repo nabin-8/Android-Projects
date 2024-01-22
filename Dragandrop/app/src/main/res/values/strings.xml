@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dragandrop</string>
+    <string name="Img">This is image View</string>
+    <string name="About">This is Drag And Drop Testing App</string>
+</resources>

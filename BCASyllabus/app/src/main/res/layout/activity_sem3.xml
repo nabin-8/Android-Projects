@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".sem1">
+
+    <ImageView
+        android:id="@+id/mainmanu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/topbbbaack"
+        app:srcCompat="@drawable/topbbbaack" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/scrollyaou"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainmanu">
+
+        <LinearLayout
+            android:id="@+id/constlay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_seme1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"
+                android:text="1st Sem" />
+
+            <Button
+                android:id="@+id/btn_seme2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:text="2nd Sem" />
+
+            <Button
+                android:id="@+id/btn_seme3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/topbackground"
+                android:layout_marginLeft="10dp"
+                android:text="3rd Sem" />
+
+            <Button
+                android:id="@+id/btn_seme4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:text="4th Sem" />
+
+            <Button
+                android:id="@+id/btn_seme5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:text="5th Sem" />
+
+            <Button
+                android:id="@+id/btn_seme6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:text="6th Sem" />
+
+            <Button
+                android:id="@+id/btn_seme7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:text="7th Sem" />
+
+            <Button
+                android:id="@+id/btn_seme8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:text="8th Sem" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollyaou">
+
+        <LinearLayout
+            android:id="@+id/mainsyalabus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/digitalLogic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/subjcctback"
+                android:padding="30dp"
+                android:text="Data Structures and Algorithms"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mathematicsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/subjcctback"
+                android:padding="30dp"
+                android:text="Probability and Statistics"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/englishi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/subjcctback"
+                android:padding="30dp"
+                android:text="System Analysis and Design"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/sot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/subjcctback"
+                android:padding="30dp"
+                android:text="OOP in Java"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cfa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/subjcctback"
+                android:padding="30dp"
+                android:text="Web Technology"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
